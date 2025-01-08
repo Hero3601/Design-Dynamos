@@ -26,7 +26,7 @@ html {
     width: 100%;
     height: 80vh;
     position: relative;
-    gap: 80px;
+    gap: 110px;
 }
 
 .nav-cont {
@@ -227,5 +227,22 @@ html {
 
     .cn-big {
         white-space: wrap;
+    }
+
+    .parent-of-head {
+        gap: 110px;
+    }
+
+    .text-col {
+        gap: 30px;
+    }
+
+    .txt-welc {
+        font-size: 25px;
+    }
+
+    .txt-description {
+        font-size: 18px;
+        width: 80%;
     }
 }
