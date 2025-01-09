@@ -225,7 +225,7 @@ html {
     .text-col {
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
     }
 
     .txt-welc, .txt-description {
@@ -237,7 +237,7 @@ html {
     }
 
     .parent-of-head {
-        gap: 30px;
+        gap: 15px;
     }
 
     .txt-welc {
