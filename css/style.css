@@ -241,11 +241,30 @@ html {
     }
 
     .txt-welc {
+        text-align: center;
         font-size: 20px;
     }
 
     .txt-description {
         font-size: 12px;
-        width: 80%;
+        width: 90%;
     }
 }
+
+/* @media (max-width: 800px) and (max-height: 1280px) {
+    .parent-of-head {
+        gap: 200px;
+    }
+    .text-col {
+        gap: 50px;
+    }
+    
+    .txt-welc {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .txt-description {
+        font-size: 24px;
+    }
+} */
