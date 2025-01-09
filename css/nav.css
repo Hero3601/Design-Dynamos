@@ -122,4 +122,8 @@ html {
         margin-right: 10px;
         text-shadow: 0 0 5px white;
     }
+
+    .parent-of-head {
+        gap: 40px;
+    }
 }
