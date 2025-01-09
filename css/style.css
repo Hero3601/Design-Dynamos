@@ -220,6 +220,7 @@ html {
 
     .footer:hover {
         width: 60%;
+        height: 30px;
     }
 
     .text-col {
@@ -237,7 +238,7 @@ html {
     }
 
     .parent-of-head {
-        gap: 15px;
+        gap: 25px;
     }
 
     .txt-welc {
