@@ -1,0 +1,68 @@
+.parent-of-head {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 70vh;
+}
+
+.parent-of-card {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 50px;
+    background-color: #1b1b1b;
+    padding: 80px;
+    border-radius: 10%;
+    box-shadow: 0 0 25px #1b1b1b;
+    height: 400px;
+}
+
+.moh-txt {
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    text-shadow: 0 0 5px white;
+    text-align: center;
+    margin: 5px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.parent-of-a {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+}
+
+.parent-of-a > a {
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    filter: drop-shadow(0 0 3px white);
+    transition: 0.2s ease-in-out;
+}
+
+.parent-of-a > a:hover {
+    color: #2b2b2b;
+    filter: drop-shadow(0 0 3px #1f1f1f);
+    font-size: 28px;
+}
+
+.moh_img {
+    border-radius: 40%;
+    width: 60%;
+    transition: 0.3s ease-in-out;
+}
+
+.moh_img:hover {
+    border-radius: 30%;
+}
