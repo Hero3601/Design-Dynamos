@@ -11,7 +11,7 @@
 
 .parent-of-card {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     align-items: center;
     gap: 50px;
     background-color: #1b1b1b;
@@ -37,7 +37,7 @@
 .parent-of-a {
     width: 80%;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-evenly;
     align-items: center;
     padding: 5px;
