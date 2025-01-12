@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.parent-of-head {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 60px;
+}
+
+.parent-of-content {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 100px;
+}
+
+.parent-of-content > div {
+    background-color: #1a1a1a;
+    width: 70%;
+    border-radius: 45px;
+    box-shadow: 0 0 1.5rem #1b1b1b;
+    transition: 0.3s ease-in-out;
+}
+
+.parent-of-content > div:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 2rem #1b1b1b;
+    border-radius: 35px;
+}
+
+.parent-of-content > div > p {
+    color: white;
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-shadow: 0 0 5px white;
+}
+
+.parent-of-content > div > div > p {
+    color: white;
+    font-size: 40px;
+    filter: drop-shadow(0 0 4px white);
+    text-align: center;
+}
+
+.head-of-msg , .head-of-welc
+, .head-of-adv , .content-of-adv
+, .desc-of-msg , .desc-of-welc {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.welcoming {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-message {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.srv-advantage {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desc-of-welc , .desc-of-msg , .content-of-adv {
+    width: 60%;
+    text-align: center;
+}
+
+.my-media {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 120px;
+}
+
+.my-media > div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-page-txt {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 0 0 5px white;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+::selection {
+    color: #1f1f1f;
+    background-color: white;
+}
+
+
+@media (min-width: 200px) and (max-width: 450px) {
+
+    .parent-of-content > div {
+        width: 80%;
+    }
+
+    .parent-of-content > div > p {
+        font-size: 18px;
+    }
+
+    .parent-of-content > div > div > p {
+        font-size: 30px;
+        white-space: wrap;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+}

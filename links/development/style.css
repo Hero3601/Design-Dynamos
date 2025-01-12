@@ -1,0 +1,22 @@
+.parent-of-head {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+}
+
+.devs-page-txt {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 0 0 5px white;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}

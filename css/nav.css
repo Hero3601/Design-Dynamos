@@ -39,7 +39,9 @@ html {
     height: 50px;
     width: calc(100% - 20%);
     margin-top: 7px;
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .menu-items {
@@ -83,6 +85,10 @@ html {
     text-decoration: none;
     transition: all 0.3s ease;
     margin-left: 20px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 }
 
 .menu-items > a:hover {
