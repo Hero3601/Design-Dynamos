@@ -182,6 +182,7 @@ html {
     width: 50px;
     height: 50px;
     background-color: black;
+    text-shadow: 0 0 5px white;
 }
 
 .footer > a:hover {
