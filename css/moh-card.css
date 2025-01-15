@@ -67,6 +67,7 @@
 
 .moh_img {
     object-fit: cover;
+    -o-object-fit: cover;
     border-radius: 40%;
     -ms-border-radius: 40%;
     -moz-border-raidus: 40%;
