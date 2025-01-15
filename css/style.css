@@ -152,9 +152,9 @@ html {
 .txt-description {
     font-size: 24px;
     width: 60%;
-    white-space: wrap;
+    /* white-space: wrap;
     word-wrap: break-word;
-    word-break: break-all;
+    word-break: break-all; */
 }
 
 .footer {
