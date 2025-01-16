@@ -1,0 +1,150 @@
+.parent-of-head {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 60px;
+}
+
+.parent-of-timer {
+    width: 80%;
+    background-color: #1b1b1b;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    border-radius: 50px;
+    box-shadow: 0 0 40px #1b1b1b;
+    transition: 0.3s ease-in-out;
+}
+
+.parent-of-timer:hover {
+    transform: scale(1.03);
+}
+
+.my-prog-txt , .parent-of-timer {
+    margin-bottom: 30px;
+}
+
+.my-prog-txt , .parent-of-timer > p ,
+ .parent-of-game > p {
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 0 0 6px white;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.timer-description {
+    width: 60%;
+}
+
+.parent-of-timer > a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    text-shadow: 0 0 6px white;
+    transition: 0.3s ease-in-out;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.parent-of-timer > a:hover {
+    font-size: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+.parent-of-timer > a:visited {
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.timer-img {
+    border-radius: 20px;
+    transition: 0.4s ease-in-out;
+    filter: drop-shadow(0 0 8px #4b4844);
+}
+
+.timer-img:hover {
+    border-radius: 10px;
+}
+
+.note-txt {
+    width: 70%;
+}
+
+.note-txt::before {
+    content: "(";
+    margin-right: 8px;
+}
+
+.note-txt::after {
+    content: ")";
+    margin-left: 8px;
+}
+
+.parent-of-game {
+    width: 80%;
+    background-color: #1b1b1b;
+    box-shadow: 0 0 40px #1b1b1b;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.parent-of-game:hover {
+    transform: scale(1.03);
+}
+
+.parent-of-game * {
+    padding: 40px;
+}
+
+.parent-of-game > a {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-shadow: 0 0 6px white;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    transition: 0.3s ease-in-out;
+}
+
+.parent-of-game > a:hover {
+    font-size: 30px;
+}
+
+.game-description , .game-note {
+    width: 60%;
+}
+
+.game-img {
+    border-radius: 70px;
+    filter: drop-shadow(0 0 8px #bcae95);
+    transition: 0.3s ease-in-out;
+}
+
+.game-img:hover {
+    border-radius: 50px;
+}
+
+@media (max-width: 1000px) {
+    .game-img , .timer-img {
+        object-fit: cover;
+        width: 80%;
+    }
+}
