@@ -7,7 +7,7 @@
 
 .parent-of-timer {
     width: 80%;
-    background-color: #1b1b1b;
+    background-color: #1b1b1b9f;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
@@ -92,7 +92,7 @@
 
 .parent-of-game {
     width: 80%;
-    background-color: #1b1b1b;
+    background-color: #1b1b1b9f;
     box-shadow: 0 0 40px #1b1b1b;
     display: flex;
     flex-flow: column nowrap;
@@ -140,6 +140,10 @@
 
 .game-img:hover {
     border-radius: 50px;
+}
+
+.head-of-timer , .head-of-game {
+    word-spacing: 5px;
 }
 
 @media (max-width: 1000px) {

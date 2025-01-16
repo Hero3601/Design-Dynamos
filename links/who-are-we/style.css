@@ -19,7 +19,7 @@ body {
 }
 
 .parent-of-content > div {
-    background-color: #1a1a1a;
+    background-color: #1b1b1b83;
     width: 70%;
     border-radius: 45px;
     box-shadow: 0 0 1.5rem #1b1b1b;
