@@ -25,7 +25,7 @@ html {
     padding: 0;
     margin: 0;
     height: 100vh;
-    gap: 70px;
+    gap: 90px;
 }
 
 .nav-cont {
@@ -165,7 +165,7 @@ html {
     color: white;
     font-size: 30px;
     font-weight: bolder;
-    margin-top: 400px;
+    margin-top: 200px;
     text-shadow: 0 0 5px white;
     user-select: none;
     -ms-user-select: none;
