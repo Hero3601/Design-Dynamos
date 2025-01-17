@@ -157,6 +157,139 @@ html {
     word-break: break-all; */
 }
 
+.wrapper-of-langs {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 400px;
+    text-shadow: 0 0 5px white;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.parent-of-langs {
+    margin-top: 150px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.parent-of-langs > div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1b1b1b83;
+    width: 13%;
+    height: 400px;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 0 0 25px #1b1b1b;
+    transition: 0.3s ease-in-out;
+}
+
+.parent-of-langs > div:hover {
+    transform: scale(1.04);
+}
+
+.parent-of-langs > div > p[class*="devicon"] {
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.parent-of-langs > div > p[class*="desc-lang"] {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    width: 80%;
+    text-shadow: 0 0 4px white;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.parent-of-mods {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.parent-of-mods > p {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 0 0 4px white;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.wrapper-of-mods {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 120px;
+}
+
+.wrapper-of-mods > div > div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1b1b1b83;
+    box-shadow: 0 0 25px #1b1b1b;
+    padding: 30px;
+    border-radius: 25px;
+    gap: 25px;
+    transition: 0.3s ease-in-out;
+}
+
+.wrapper-of-mods > div > div:hover {
+    transform: scale(1.03);
+}
+
+.wrapper-of-mods > div > div > p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    text-shadow: 0 0 5px white;
+    width: 75%;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.wrapper-of-mods > div > div > img {
+    object-fit: cover;
+    border-radius: 50%;
+    transition: 0.4s ease-in-out;
+}
+
+.wrapper-of-mods > div > div > img:hover {
+    border-radius: 50px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
@@ -398,5 +531,37 @@ html {
         width: 28px;
         height: 28px;
         border-radius: 10px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .parent-of-langs {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 120px;
+    }
+
+    .parent-of-langs > div {
+        width: 80%;
+    }
+
+    .wrapper-of-mods {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .wrapper-of-mods > div > div {
+        align-self: center;
+        width: 80%;
+    }
+
+    .wrapper-of-mods > div > div > img {
+        width: 70%;
+        object-fit: cover;
     }
 }
